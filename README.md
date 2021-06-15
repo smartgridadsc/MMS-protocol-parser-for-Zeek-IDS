@@ -32,9 +32,12 @@ Download and install the required version of 2.6.x. Some commands may require ro
 4. make
 5. make install
 
+Please note that some commands may require root privileges.
 The command below can be used to check that the plugin has been installed and loaded correctly.
 
     <path_to_zeek>/build/src/bro –N | grep MMS
+    
+    
 ### BTest Installation
 BTest [2] is a framework for system level testing in Zeek. It must be installed separately. Download the latest btest version from [https://download.zeek.org/](https://download.zeek.org/) and enter the following commands to complete the installation:
 
@@ -113,8 +116,9 @@ The prerequisites that must be met for successful parsing of a trace file are as
 
 ## Extracted Data
 The following section lists the PDUs/services, the selected identifier and the corresponding set of fields parsed for storage in the _data_ vector.
+
 |PDU|Identifier|Data Fields|
-|--|--|--|--|
+|--|--|--|
 Initiate-Request|NA|localDetailCalling|
 |||proposedMaxServOutstandingCalling|
 |||proposedMaxServOutstandingCalled|
@@ -135,7 +139,6 @@ Conclude-Request|NA|NA|
 Conclude-Response|NA|NA|
 
 <br>
-
 
 |Confirmed Service|Identifier|Data Fields|
 |--|--|--|
@@ -214,9 +217,9 @@ Conclude-Response|NA|NA|
 
 
 ## References
-[1] [https://zeek.org](https://zeek.org)
-[2] [https://github.com/zeek/btest](https://github.com/zeek/btest)
-[3] [https://libiec61850.com/libiec61850/](https://libiec61850.com/libiec61850/)
+[1] [https://zeek.org](https://zeek.org)<br>
+[2] [https://github.com/zeek/btest](https://github.com/zeek/btest)<br>
+[3] [https://libiec61850.com/libiec61850/](https://libiec61850.com/libiec61850/)<br>
 [4] [https://itrust.sutd.edu.sg/testbeds/electric-power-intelligent-control-epic/](https://itrust.sutd.edu.sg/testbeds/electric-power-intelligent-control-epic/)
 
 ## Contact Information
@@ -226,4 +229,4 @@ Email: [binbin.chen@adsc-create.edu.sg](mailto:binbin.chen@adsc-create.edu.sg)
 2. Tan Heng Chuan
 Email: [hc.tan@adsc-create.edu.sg](mailto:hc.tan@adsc-create.edu.sg)
 
-For more information on our organization’s research activities, please refer to our main website at [https://adsc.illinois.edu](https://adsc.illinois.edu)
+For more information on our organization’s research activities, please refer to our main website: [https://adsc.illinois.edu](https://adsc.illinois.edu)
