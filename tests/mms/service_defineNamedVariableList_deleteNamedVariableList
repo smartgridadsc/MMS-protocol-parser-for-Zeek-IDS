@@ -1,0 +1,6 @@
+#
+# @TEST-EXEC: bro -r $TRACES/defineNamedVariableList_deleteNamedVariableList.pcap services > defineNamedVariableList_deleteNamedVariableList.out
+# @TEST-EXEC: btest-diff defineNamedVariableList_deleteNamedVariableList.out
+#
+# @TEST-EXEC: bro -r $TRACES/deleteNamedVariableList_optional_listOfvariableListName_domainName.pcap services > deleteNamedVariableList_optional.out
+# @TEST-EXEC: btest-diff deleteNamedVariableList_optional.out

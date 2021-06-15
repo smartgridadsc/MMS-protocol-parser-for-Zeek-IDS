@@ -1,0 +1,2 @@
+# @TEST-EXEC: bro -r $TRACES/conclude.pcap services.bro > conclude.out
+# @TEST-EXEC: btest-diff conclude.out

@@ -1,0 +1,5 @@
+
+Bro::MMS
+=================================
+
+This package provides an analyzer for the IEC61850 MMS protocol used for communication by Intelligent Electronic Devices (IEDs) within electrical substations. Please refer to the project page for the full documentation: https://github.com/smartgridadsc/MMS-protocol-parser-for-Zeek-IDS

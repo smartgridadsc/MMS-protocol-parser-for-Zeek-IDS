@@ -1,0 +1,274 @@
+## c: The connection
+##
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event get_name_list_request%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+##
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+event read_request%(c: connection, invoke_id: count, identifier: string%);
+
+## c: The connection
+##
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event write_request%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+event get_var_access_attr_request%(c: connection, invoke_id: count, identifier: string%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+event get_named_var_list_attr_request%(c: connection, invoke_id: count, identifier: string%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+event status_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+event conclude_request%(c: connection%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_directory_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_open_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_read_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_close_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+event identify_request%(c: connection, invoke_id: count%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_rename_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event define_named_var_list_request%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event delete_named_var_list_request%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event initiate_request%(c: connection, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event obtain_file_request%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event get_name_list_response%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event read_response%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+event write_response%(c: connection, invoke_id: count, identifier: string%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event get_var_access_attr_response%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## identifier: An object identifier in the request
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event get_named_var_list_attr_response%(c: connection, invoke_id: count, identifier: string, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event status_response%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+event conclude_response%(c: connection%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_directory_response%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_open_response%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event file_read_response%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+event file_close_response%(c: connection, invoke_id: count%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event identify_response%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+event file_rename_response%(c: connection, invoke_id: count%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+event define_named_var_list_response%(c: connection, invoke_id: count%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event delete_named_var_list_response%(c: connection, invoke_id: count, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+##
+## data: Packet data stored in a vector of strings
+##
+## datatype: The datatype tag for each element in parameter data
+event initiate_response%(c: connection, data: string_vec, datatype: index_vec%);
+
+## c: The connection
+## 
+## invoke_id: The id for a pair of request and response packets
+event obtain_file_response%(c: connection, invoke_id: count%);

@@ -1,0 +1,14 @@
+# @TEST-EXEC: bro -r $TRACES/status_0.pcap services.bro > status_0.out
+# @TEST-EXEC: btest-diff status_0.out
+#
+# @TEST-EXEC: bro -r $TRACES/status_1.pcap services.bro > status_1.out
+# @TEST-EXEC: btest-diff status_1.out
+#
+# @TEST-EXEC: bro -r $TRACES/status_2.pcap services.bro > status_2.out
+# @TEST-EXEC: btest-diff status_2.out
+#
+# @TEST-EXEC: bro -r $TRACES/status_3.pcap services.bro > status_3.out
+# @TEST-EXEC: btest-diff status_3.out
+#
+# @TEST-EXEC: bro -r $TRACES/status_optional_localDetail.pcap services.bro > status_optional.out
+# @TEST-EXEC: btest-diff status_optional.out

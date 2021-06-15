@@ -1,0 +1,6 @@
+[package]
+description = IEC61850 MMS analyzer for Bro
+plugin_dir = build
+scripts_dir = scripts
+build_command = ./configure --bro-dist=%(bro_dist)s && make
+test_command = cd tests && btest

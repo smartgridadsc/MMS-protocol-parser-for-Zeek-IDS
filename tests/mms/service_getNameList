@@ -1,0 +1,5 @@
+# @TEST-EXEC: bro -r $TRACES/getNameList.pcap services.bro > getNameList.out
+# @TEST-EXEC: btest-diff getNameList.out
+#
+# @TEST-EXEC: bro -r $TRACES/getNameList_optional_continueAfter.pcap services.bro> getNameList_optional.out
+# @TEST-EXEC: btest-diff getNameList_optional.out

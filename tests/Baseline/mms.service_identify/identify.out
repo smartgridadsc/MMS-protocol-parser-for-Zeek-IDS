@@ -1,0 +1,27 @@
+direction, request
+service, initiate
+data, 65000
+data, 5
+data, 5
+data, 10
+data, 1
+data, 11110001000
+data, 1110111000011100000000000000000000000100000010000000000000000000011110011110111100011
+direction, response
+service, initiate
+data, 65000
+data, 5
+data, 5
+data, 10
+data, 1
+data, 11110001000
+data, 1110111000011100000000000000000000000000000000000000000000000000000000000000000100011
+invokeId, 1
+direction, request
+service, identify
+invokeId, 1
+direction, response
+service, identify
+data, MZ
+data, basic io
+data, 1.4.2

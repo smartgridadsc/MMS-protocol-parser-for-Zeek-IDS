@@ -1,0 +1,11 @@
+invokeId, 2
+direction, request
+service, deleteNamedVariableList
+identifier, simpleIOGenericIO_LLN0$newDataSet
+data, 0
+data, generic
+invokeId, 2
+direction, response
+service, deleteNamedVariableList
+data, 1
+data, 1

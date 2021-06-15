@@ -1,0 +1,5 @@
+# @TEST-EXEC: bro -r $TRACES/getVariableAccessAttributes.pcap services.bro > getVariableAccessAttributes.out
+# @TEST-EXEC: btest-diff getVariableAccessAttributes.out
+#
+# @TEST-EXEC: bro -r $TRACES/getVariableAccessAttributes_optional_address.pcap services.bro> getVariableAccessAttributes_optional.out
+# @TEST-EXEC: btest-diff getVariableAccessAttributes_optional.out

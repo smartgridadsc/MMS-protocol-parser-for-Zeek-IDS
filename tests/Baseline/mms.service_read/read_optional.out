@@ -1,0 +1,11 @@
+invokeId, 238033
+direction, request
+service, read
+identifier, GIED2CTRL_LLN0$DC$NamPlt$configRev
+invokeId, 238033
+direction, response
+service, read
+identifier, GIED2CTRL_LLN0$DC$NamPlt$configRev
+data, GIED2CTRL
+data, LLN0$DC$NamPlt$configRev
+data, 201507221626

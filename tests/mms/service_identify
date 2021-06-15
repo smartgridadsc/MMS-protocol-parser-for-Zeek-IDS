@@ -1,0 +1,2 @@
+# @TEST-EXEC: bro -r $TRACES/identify.pcap services.bro > identify.out
+# @TEST-EXEC: btest-diff identify.out

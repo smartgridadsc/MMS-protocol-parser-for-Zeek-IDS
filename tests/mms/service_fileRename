@@ -1,0 +1,4 @@
+#
+# @TEST-EXEC: bro -r $TRACES/fileRename.pcap services.bro > fileRename.out
+# @TEST-EXEC: btest-diff fileRename.out
+#

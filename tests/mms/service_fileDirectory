@@ -1,0 +1,7 @@
+#
+# @TEST-EXEC: bro -r $TRACES/fileDirectory.pcap services.bro > fileDirectory.out
+# @TEST-EXEC: btest-diff fileDirectory.out
+#
+# @TEST-EXEC: bro -r $TRACES/fileDirectory_optional_continueAfter.pcap services.bro> fileDirectory_optional.out
+# @TEST-EXEC: btest-diff fileDirectory_optional.out
+#

@@ -1,0 +1,16 @@
+invokeId, 32720
+direction, request
+service, write
+identifier, WAGO61850ServerLogicalDevice_GGIO12$CO$SPCSO$Oper
+data, true
+data, Fri Oct 19 06:45:23 2018 GMT
+data, 2
+data, 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+data, 48
+data, Fri Oct 19 06:45:23 2018 GMT
+data, false
+data, 00
+invokeId, 32720
+direction, response
+service, write
+identifier, WAGO61850ServerLogicalDevice_GGIO12$CO$SPCSO$Oper

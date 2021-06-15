@@ -1,0 +1,2 @@
+# @TEST-EXEC: bro -r $TRACES/getNamedVariableListAttributes.pcap services.bro > getNamedVariableListAttributes.out
+# @TEST-EXEC: btest-diff getNamedVariableListAttributes.out

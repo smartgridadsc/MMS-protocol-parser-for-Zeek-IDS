@@ -1,0 +1,5 @@
+# @TEST-EXEC: bro -r $TRACES/read.pcap services.bro > read.out
+# @TEST-EXEC: btest-diff read.out
+#
+# @TEST-EXEC: bro -r $TRACES/read_optional_variableAccessSpecification.pcap services.bro> read_optional.out
+# @TEST-EXEC: btest-diff read_optional.out

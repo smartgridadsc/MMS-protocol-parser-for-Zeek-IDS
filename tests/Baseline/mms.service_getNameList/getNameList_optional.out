@@ -1,0 +1,10 @@
+invokeId, 1
+direction, request
+service, getNameList
+data, 9
+data, generic
+invokeId, 1
+direction, response
+service, getNameList
+data, WAGO61850ServerLogicalDevice
+data, false

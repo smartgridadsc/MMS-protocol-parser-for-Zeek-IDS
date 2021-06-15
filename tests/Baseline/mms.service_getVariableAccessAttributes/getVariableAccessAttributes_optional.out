@@ -1,0 +1,15 @@
+invokeId, 6
+direction, request
+service, getVariableAccessAttributes
+identifier, simpleIOGenericIO_GGIO1$MX$AnIn1
+invokeId, 6
+direction, response
+service, getVariableAccessAttributes
+identifier, simpleIOGenericIO_GGIO1$MX$AnIn1
+data, false
+data, simple
+data, mag
+data, f
+data, q
+data, -13
+data, t

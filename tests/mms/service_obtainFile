@@ -1,0 +1,2 @@
+# @TEST-EXEC: bro -r $TRACES/obtainFile.pcap services.bro > obtainFile.out
+# @TEST-EXEC: btest-diff obtainFile.out

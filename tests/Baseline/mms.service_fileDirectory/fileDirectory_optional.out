@@ -1,0 +1,11 @@
+invokeId, 1
+direction, request
+service, fileDirectory
+data, IEDSERVER.BIN
+data, IEDSERVER1.BIN
+invokeId, 1
+direction, response
+service, fileDirectory
+data, IEDSERVER.BIN
+data, 2087744
+data, 20201021080434.000Z

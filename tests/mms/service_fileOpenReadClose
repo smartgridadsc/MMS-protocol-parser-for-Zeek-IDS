@@ -1,0 +1,4 @@
+#
+# @TEST-EXEC: bro -r $TRACES/fileOpenReadClose.pcap services.bro > fileOpenReadClose.out
+# @TEST-EXEC: btest-diff fileOpenReadClose.out
+#

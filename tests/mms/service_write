@@ -1,0 +1,2 @@
+# @TEST-EXEC: bro -r $TRACES/write.pcap services.bro > write.out
+# @TEST-EXEC: btest-diff write.out
